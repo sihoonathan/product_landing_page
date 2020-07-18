@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Product Landing Page</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header id="header"></header>
+    <div id="wrapper">
+      <header id="header">
+        <div class="logo">
+          <img id="header-img" src="original_trombones.png"/>
+        </div>
+        <nav id="nav-bar">
+          <ul>
+            <li><a href="#features" class="nav-link">Features</a></li>
+            <li><a href="#how" class="nav-link">How It Works</a></li>
+            <li><a href="#pricing" class="nav-link">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <section id="main">
+      <iframe id="video" src="https://www.youtube.com/embed/y8Yv4pnO7qc"></iframe>
+      
+      <div id="features"></div>
+      <div id="how"></div>
+      <div id="pricing"></div>
+  
+      <form action="blank" id="form">
+        <input type="email" id="email" name="email" placeholder="Enter your email address"/>
+        <input id="submit" type="submit" value="GET STARTED"/>
+      </form>
+    </section>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
