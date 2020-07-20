@@ -3,7 +3,6 @@ html, body {
     background-color: #eee;
     font-family: 'Lato', sans-serif;
     overflow: hidden;
-    height: 200vh;
     line-height: 1.2;
 }
 
@@ -238,5 +237,32 @@ footer > p {
     .price > div {
         width: 350px;
     }
+}
 
+#features::before {
+    display: block;
+    content: " ";
+    margin-top: -285px;
+    height: 285px;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+
+#video::before {
+    display: block;
+    content: " ";
+    margin-top: -285px;
+    height: 285px;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+#pricing::before {
+    display: block;
+    content: " ";
+    margin-top: -1000px;
+    height: 1000px;
+    visibility: hidden;
+    pointer-events: none;
 }
