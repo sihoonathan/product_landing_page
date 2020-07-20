@@ -5,4 +5,4 @@
 ![screenshot](screenshot2.png)
 ![screenshot](screenshot3.png)
 
-##### *Free Code Camp html, css Project 1 using grid css style*
+##### *Free Code Camp html, css Project 3 with media queries implemented for different screen sizes*
